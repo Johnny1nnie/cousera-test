@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Module 2 Solution</title>
+<style>
+
+* {
+  box-sizing: border-box;
+  margin: 10;
+  padding: 10;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+div#container {
+  position: relative;
+  background-color: cadetblue;
+}
+p {
+  border: 1px solid black;
+  float: left;
+  padding: 15px;
+  padding-top: 40px;
+}
+
+#p1 {
+  background-color: lightgray;
+}
+#p2 {
+  background-color: lightgray;
+}
+#p3 {
+  background-color: lightgray;
+}
+#p4 {
+  background-color: lightgreen;
+  position: absolute;
+  border: 1px solid black;
+  font-weight: bold;
+}
+#p5 {
+  background-color: lightyellow;
+  position: absolute;
+  border: 1px solid black;
+  font-weight: bold;
+}
+#p6 {
+  background-color: lightblue;
+  position: absolute;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+/******* Larger Devices Only ******/
+@media (min-width: 992px) {
+  #p1 {
+    width: 30%;
+    height: 200px;
+    margin-right: 1.62%;
+    margin-left: 1.62%; 
+  }
+  #p2 {
+    width: 30%;
+    height: 200px;
+    margin-right: 1.62%;
+    margin-left: 1.62%;
+  }
+  #p3 {
+    width: 30%;
+    height: 200px;
+    margin-right: 1.62%;
+    margin-left: 1.62%;
+  } 
+  #p4 {
+    width: 100px;
+    height: 33px;
+    right: 68.4%;
+    text-align: center;
+    padding: 6px;
+  }
+  #p5 {
+    width: 100px;
+    height: 33px;
+    right: 35.15%;
+    text-align: center;
+    padding: 6px;
+  }
+  #p6 {
+    width: 100px;
+    height: 33px;
+    right: 1.9%;
+    text-align: center;
+    padding: 6px;
+  }
+}
+
+/****** Medium Devices Only ******/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 47%;
+    height: 160px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+  }
+  #p2 {
+    width: 47%;
+    height: 160px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+  #p3 {
+    width: 97%;
+    height: 160px;
+    margin-right: 1.5%;
+  }
+  #p4 {
+    width: 100px;
+    height: 33px;
+    right: 51.5%;
+    text-align: center;
+    padding: 6px;
+  }
+  #p5 {
+    width: 100px;
+    height: 33px;
+    right: 1.5%;
+    text-align: center;
+    padding: 6px;
+  }
+  #p6 {
+    width: 100px;
+    height: 33px;
+    right: 1.5%;
+    text-align: center;
+    padding: 6px;
+    top: 192px;
+  }
+}
+
+/****** Small Devices Only ******/
+@media (min-width: 1px) and (max-width: 767px) {
+  #p1 {
+    width: 97%;
+    height: 140px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+  #p2 {
+    width: 97%;
+    height: 140px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+  #p3 {
+    width: 97%;
+    height: 140px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+  #p4 {
+    width: 100px;
+    height: 33px;
+    right: 1.5%;
+    text-align: center;
+    padding: 6px;
+  }
+  #p5 {
+    width: 100px;
+    height: 33px;
+    right: 1.5%;
+    text-align: center;
+    padding: 6px;
+    top: 172px;
+  }
+    #p6 {
+    width: 100px;
+    height: 33px;
+    right: 1.5%;
+    text-align: center;
+    padding: 6px;
+    top: 344px;
+  }
+}
+</style>
+</head>
+<body>
+<h1>Module 2 Solution</h1>
+
+<div id="container">
+  <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
+  <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo.</p>
+  <p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+  <p id="p4">Chicken</p>
+  <p id="p5">Beef</p>
+  <p id="p6">Sushi</p>
+  </div>
+
+
+</body>
+</html>
