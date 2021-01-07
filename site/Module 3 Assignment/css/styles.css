@@ -1,0 +1,10 @@
+.row {
+	margin-bottom: 0px;
+}
+.row > div {
+	border: 0px solid black;
+	background-color: white;
+}
+.p {
+	background-color: lightgray;
+}
